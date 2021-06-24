@@ -305,5 +305,21 @@
 			"}"
 		],
 		"description": "Async Function Expression"
+	},
+	"Map Function": {
+		"prefix": "map",
+		"body": [
+			"${1:arrName}.map(${2:params}:${3:type}) => {",
+			"\t$0",
+			"})"
+		],
+		"description": "Map an Array"
+	},
+	"Filter Function": {
+		"prefix": "filter",
+		"body": [
+			"${1:arrName}.filter(${2:callback})"
+		],
+		"description": "Filter an Array"
 	}
 }
