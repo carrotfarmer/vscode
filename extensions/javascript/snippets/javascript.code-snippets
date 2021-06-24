@@ -190,5 +190,21 @@
 			"console.error($1);"
 		],
 		"description": "Log error to the console"
+	},
+	"Map Function": {
+		"prefix": "map",
+		"body": [
+			"${1:arrName}.map(() => {",
+			"\t$0",
+			"})"
+		],
+		"description": "Map an array"
+	},
+	"Filter Function": {
+		"prefix": "filter",
+		"body": [
+			"${1:arrName}.filter(${2:callback})"
+		],
+		"description": "Filter an array"
 	}
 }
